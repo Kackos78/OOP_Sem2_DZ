@@ -1,5 +1,5 @@
 abstract class AbstractAccount implements Account {
-    protected double balans = 0;
+    protected double balans;
 
     public AbstractAccount (double balans) {this.balans = balans;}
 
